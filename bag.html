@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopping Bag - ELANORE</title>
-    <link rel="stylesheet" href="./bag.css">
-    <link rel="stylesheet" href="./universal.css">
-    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./bag.css" />
+    <link rel="stylesheet" href="./universal.css" />
+    <link rel="stylesheet" href="./home.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -15,7 +15,7 @@
   <body>
     <div class="container">
       <!-- HEADER -->
-         <header class="header">
+      <header class="header">
         <!-- logo -->
         <div class="logo">
           <a href="index.html">DD<span class="span">W</span> </a>
@@ -37,16 +37,6 @@
           </ul>
         </nav>
 
-        <!-- search -->
-        <!-- <div class="search-container">
-          <input type="text"  id="search" placeholder="search for products, brands and more"  />
-          <i class="fa-solid fa-magnifying-glass"></i>
-        </div> -->
-        <!-- for search filter -->
-         <!-- <div class="output"></div> -->
-
-        <!-- toggle -->
-
         <div class="toggle">
           <button id="darkModeToggle">
             <i class="fa-solid fa-moon"></i>
@@ -57,16 +47,13 @@
         <div class="action-container">
           <div class="action-item">
             <i class="fa-solid fa-user"></i>
-            <!-- <p>Profile</p> -->
           </div>
 
           <div class="action-item">
             <a href="./bag.html"><i class="fa-solid fa-bag-shopping"></i></a>
-            <!-- <p>Bag</p> -->
             <span class="bag-item-count">0</span>
           </div>
         </div>
-        <!-- header end -->
       </header>
 
       <!-- CART SECTION -->
@@ -74,7 +61,6 @@
         <h1>YOUR SHOPPING BAG</h1>
 
         <div class="cart-wrapper">
-          <!-- Cart Items Container -->
           <div class="cart-items-container">
             <div class="cart-header-row">
               <span class="header-product">Product</span>
@@ -84,11 +70,8 @@
               <span class="header-action">Remove</span>
             </div>
 
-            <div class="cart-items">
-              <!-- Cart items will be dynamically inserted here -->
-            </div>
+            <div class="cart-items"></div>
 
-            <!-- Empty Cart Message -->
             <div class="empty-cart" style="display: none">
               <i class="fa-solid fa-cart-shopping"></i>
               <h2>Your bag is empty</h2>
@@ -125,17 +108,12 @@
               <span class="total">$0.00</span>
             </div>
 
-            <div class="promo-code">
-              <input type="text" placeholder="Enter promo code" />
-              <button>Apply</button>
-            </div>
-
             <button class="checkout-btn">
               <i class="fa-solid fa-lock"></i> Proceed to Checkout
             </button>
-          <button class="clear-cart-btn" onclick="clearCart()">Clear Cart</button>
-
-
+            <button class="clear-cart-btn" onclick="clearCart()">
+              Clear Cart
+            </button>
 
             <div class="payment-icons">
               <i class="fa-brands fa-cc-visa"></i>

@@ -72,9 +72,9 @@ mens.forEach((men) => {
         <p>${men.description}</p>
         <div class="price-cart">
           <span class="price">${men.price}</span>
-<button class="add-to-cart-btn" onclick="addToCartSimple(1)">
-  Add to Cart
-</button>
+        <button class="add-to-cart-btn">
+                Add to Cart
+        </button>
         </div>
       </div>
     </div>`;

@@ -1,4 +1,3 @@
-// ==================== rendering best prodct =============
 let items = [
   {
     id: 1,
@@ -73,9 +72,9 @@ items.forEach((item) => {
         <p>${item.description}</p>
         <div class="price-cart">
           <span class="price">${item.price}</span>
-<button class="add-to-cart-btn">
-  Add to Cart
-</button>
+        <button class="add-to-cart-btn">
+           Add to Cart
+        </button>
         </div>
       </div>
     </div>

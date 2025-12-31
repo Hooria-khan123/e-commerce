@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shoes Collection - ELANORE</title>
     <link rel="stylesheet" href="./shoes.css" />
-    <link rel="stylesheet" href="./universal.css">
+    <link rel="stylesheet" href="./universal.css" />
     <link rel="stylesheet" href="./home.css" />
     <link
       rel="stylesheet"
@@ -21,12 +21,11 @@
 
       <!-- HAMBURGER -->
       <div class="hamburger" id="hamburger">
-          <i class="fa-solid fa-bars"></i>
-        </div>
+        <i class="fa-solid fa-bars"></i>
+      </div>
       <!-- navbar -->
 
-              <nav class="navbar" id="navbar">
-
+      <nav class="navbar" id="navbar">
         <ul>
           <li><a href="./home.html">Home</a></li>
           <li><a href="./men.html">Men</a></li>
@@ -39,7 +38,12 @@
       <!-- search bar -->
 
       <div class="search-container">
-         <input type="text" id="search" placeholder="Search products..."  onkeyup="search()" />
+        <input
+          type="text"
+          id="search"
+          placeholder="Search products..."
+          onkeyup="search()"
+        />
         <i class="fa-solid fa-magnifying-glass"></i>
       </div>
 
@@ -51,25 +55,26 @@
         </button>
       </div>
 
-      <!-- bag and cart icons -->
-
       <div class="action-container">
         <div class="action-item">
           <i class="fa-solid fa-user"></i>
         </div>
         <a href="./bag.html" class="action-item">
-            <i class="fa-solid fa-bag-shopping"></i>
-            <span class="bag-item-count">0</span>
-          </a>
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="bag-item-count">0</span>
+        </a>
       </div>
     </header>
 
     <!-- SHOES SECTION -->
     <section class="shoes">
       <h1>SHOES COLLECTION</h1>
-      <p id="noProduct" style="display: none; text-align: center; margin-top: 20px" >
-            No product found
-          </p>
+      <p
+        id="noProduct"
+        style="display: none; text-align: center; margin-top: 20px"
+      >
+        No product found
+      </p>
       <div class="shoes-collections"></div>
     </section>
 
@@ -113,8 +118,6 @@
     </footer>
 
     <script src="./universal.js"></script>
-
     <script src="./shoes.js"></script>
-
   </body>
 </html>

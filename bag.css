@@ -53,7 +53,6 @@
   flex-wrap: wrap;
 }
 
-/* ============ CART ITEMS CONTAINER ============ */
 .cart-items-container {
   flex: 2;
   min-width: 300px;
@@ -76,7 +75,6 @@
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
-/* ============ INDIVIDUAL CART ITEM ============ */
 .cart-item {
   display: grid;
   grid-template-columns: 2fr 1fr 1fr 1fr 0.5fr;
@@ -133,7 +131,6 @@
   color: #1f3d2b;
 }
 
-/* ============ QUANTITY CONTROLS ============ */
 .quantity-controls {
   display: flex;
   align-items: center;
@@ -167,7 +164,6 @@
   text-align: center;
 }
 
-/* ============ REMOVE BUTTON ============ */
 .remove-btn {
   background: none;
   border: none;
@@ -182,7 +178,6 @@
   color: #c0392b;
 }
 
-/* ============ EMPTY CART ============ */
 .empty-cart {
   text-align: center;
   padding: 60px 20px;
@@ -223,7 +218,6 @@
   box-shadow: 0 10px 25px rgba(31, 61, 43, 0.3);
 }
 
-/* ============ CART SUMMARY ============ */
 .cart-summary {
   flex: 1;
   min-width: 300px;
@@ -266,45 +260,6 @@
   background: #eee;
   margin: 20px 0;
 }
-
-/* ============ PROMO CODE ============ */
-.promo-code {
-  display: flex;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.promo-code input {
-  flex: 1;
-  padding: 12px 15px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  font-size: 14px;
-  outline: none;
-  transition: border-color 0.3s ease;
-}
-
-.promo-code input:focus {
-  border-color: #1f3d2b;
-}
-
-.promo-code button {
-  padding: 12px 20px;
-  background: #f5f5f5;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.promo-code button:hover {
-  background: #1f3d2b;
-  color: #fff;
-  border-color: #1f3d2b;
-}
-
-/* ============ CHECKOUT BUTTON ============ */
 .checkout-btn {
   width: 100%;
   padding: 15px;
@@ -331,7 +286,6 @@
   font-size: 14px;
 }
 
-/* ============ PAYMENT ICONS ============ */
 .payment-icons {
   display: flex;
   justify-content: center;
@@ -350,11 +304,11 @@
 .payment-icons i:hover {
   color: #1f3d2b;
 }
-/* ============ CLEAR CART BUTTON ============ */
 .clear-cart-btn {
   width: 100%;
   padding: 14px;
   margin-bottom: 15px;
+  margin-top: 12px;
   background: #fff;
   color: #e74c3c;
   border: 2px solid #e74c3c;
@@ -375,8 +329,6 @@
   box-shadow: 0 10px 25px rgba(231, 76, 60, 0.3);
 }
 
-
-/* ============ TOAST NOTIFICATION ============ */
 .toast {
   position: fixed;
   bottom: 30px;
@@ -416,7 +368,6 @@
   opacity: 0.9;
 }
 
-/* ============ RESPONSIVE ============ */
 @media (max-width: 768px) {
   .cart-section {
     padding: 20px 15px;
@@ -480,12 +431,6 @@
     bottom: 15px;
   }
 }
-
-
-
-
-/* =============================dark mode =============== */
-/* ============ CART DARK MODE ============ */
 body.dark-mode .cart-section {
   background: #151b2e;
 }

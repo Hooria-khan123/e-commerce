@@ -58,9 +58,7 @@ let womens = [
 ];
 
 let womenClothsContainer = document.querySelector(".women-cloths");
-
 let clothHtml = "";
-
 womens.forEach((women) => {
   clothHtml += `
     <div class="product-item women-cloth">
@@ -72,11 +70,9 @@ womens.forEach((women) => {
         <p>${women.description}</p>
         <div class="price-cart">
           <span class="price">${women.price}</span>
-<button class="add-to-cart-btn" onclick="addToCartSimple(1)">
-  Add to Cart
-</button>
-
-
+        <button class="add-to-cart-btn">
+           Add to Cart
+        </button>
         </div>
       </div>
     </div>`;
