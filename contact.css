@@ -1,0 +1,183 @@
+
+/* Light mode - header icons */
+
+/* ================= CONTACT SECTION ================= */
+
+.contact {
+  width: 100%;
+  padding: 60px 40px;
+  background: #f8f9fb;
+}
+
+.contact h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #1F3D2B;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+/* WRAPPER */
+.contact-wrapper {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+/* LEFT INFO BOX */
+.contact-info {
+  flex: 1;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.contact-info h2 {
+  color: #1F3D2B;
+  margin-bottom: 10px;
+}
+
+.contact-info p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 15px;
+  color: #333;
+  font-size: 14px;
+}
+
+.info-item i {
+  color: #1F3D2B;
+  font-size: 18px;
+}
+
+/* RIGHT FORM BOX */
+.contact-form {
+  flex: 1;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.contact-form h2 {
+  color: #1F3D2B;
+  margin-bottom: 20px;
+}
+
+/* SIMPLE INPUTS */
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 15px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  outline: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #1F3D2B;
+}
+
+/* BUTTON */
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background: linear-gradient(135deg, #1F3D2B, #3C6E4E);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(31, 61, 43, 0.35);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .contact-wrapper {
+    flex-direction: column;
+  }
+}
+
+/* ================= Dark Mode - Contact Section ================= */
+body.dark-mode .contact {
+  background: #0f111f;
+  color: #e4e6eb;
+}
+
+body.dark-mode .contact h1 {
+  color: #5dd39e;
+}
+
+body.dark-mode .contact-wrapper {
+  gap: 40px;
+}
+
+body.dark-mode .contact-info,
+body.dark-mode .contact-form {
+  background: #1a1f36;
+  box-shadow: 0 8px 20px rgba(93, 211, 158, 0.2);
+  color: #e4e6eb;
+}
+
+body.dark-mode .contact-info h2,
+body.dark-mode .contact-form h2 {
+  color: #5dd39e;
+}
+
+body.dark-mode .contact-info p,
+body.dark-mode .info-item,
+body.dark-mode .contact-form label {
+  color: #c0c5d0;
+}
+
+body.dark-mode .info-item i {
+  color: #5dd39e;
+}
+
+body.dark-mode .contact-form input,
+body.dark-mode .contact-form textarea {
+  background: #121726;
+  color: #e4e6eb;
+  border: 1px solid #5dd39e;
+}
+
+body.dark-mode .contact-form input::placeholder,
+body.dark-mode .contact-form textarea::placeholder {
+  color: #8899a6;
+}
+
+body.dark-mode .contact-form input:focus,
+body.dark-mode .contact-form textarea:focus {
+  border-color: #5dd39e;
+}
+
+body.dark-mode .contact-form button {
+  background: linear-gradient(135deg, #5dd39e, #3ca876);
+  color: #0a0e27;
+  border: none;
+}
+
+body.dark-mode .contact-form button:hover {
+  box-shadow: 0 8px 16px rgba(93, 211, 158, 0.35);
+  transform: scale(1.05);
+}
+

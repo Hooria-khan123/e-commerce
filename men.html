@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>men section Section</title>
+    <link rel="stylesheet" href="./men.css" />
+     <link rel="stylesheet" href="./universal.css">
+    <link rel="stylesheet" href="./home.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER -->
+
+      <header class="header">
+        <!-- logo -->
+        <div class="logo">
+          <a href="index.html">DD<span class="span">W</span> </a>
+        </div>
+
+        <!-- Hamburger -->
+        <div class="hamburger" id="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <!-- NAVBAR -->
+        <nav class="navbar" id="navbar">
+          <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="shoes.html">Shoes</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+
+        <!-- search -->
+        <div class="search-container">
+          <input
+            type="text"
+            id="search"
+            placeholder="Search products..."
+            onkeyup="search()"
+          />
+
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+
+        <!-- toggle -->
+
+        <div class="toggle">
+          <button id="darkModeToggle">
+            <i class="fa-solid fa-moon"></i>
+          </button>
+        </div>
+
+        <!-- Action List -->
+        <div class="action-container">
+          <div class="action-item">
+            <i class="fa-solid fa-user"></i>
+            <!-- <p>Profile</p> -->
+          </div>
+
+           <a href="./bag.html" class="action-item">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <span class="bag-item-count">0</span>
+          </a>
+
+        </div>
+        <!-- header end -->
+      </header>
+
+      <section class="men">
+        <h1>MEN COLLECTION</h1>
+        <p id="noProduct" style="display: none; text-align: center; margin-top: 20px" >
+            No product found
+          </p>
+        <div class="men-cloths"></div>
+      </section>
+
+      <!-- ===========================footer ===================== -->
+
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Column 1 -->
+          <div class="footer-column">
+            <h3>ELANORE</h3>
+            <p class="footer-text">
+              Premium fashion store bringing you the best styles for men &
+              women.
+            </p>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="footer-column">
+            <h3>Address</h3>
+            <p class="footer-text">
+              dolor sit amet consectetur adipisicing elit. Eius, ullam atque
+              asperiores lorem ipsum unde quae soluta?
+            </p>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="footer-column">
+            <h3>E-mail</h3>
+            <p class="footer-text"></p>
+            <p class="footer-text">xyz@gmail.com</p>
+          </div>
+
+          <!-- Column 4 -->
+          <div class="footer-column">
+            <h3>Call Us</h3>
+            <p class="footer-text">+92 12345678</p>
+          </div>
+        </div>
+
+        <div class="footer-row">
+          <div class="social-icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+          </div>
+        </div>
+
+        <hr />
+        <div class="footer-bottom">
+          <p>© 2025 ELANORE. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./universal.js"></script>
+    <script src="./men.js"></script>
+  </body>
+</html>
